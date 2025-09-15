@@ -1,0 +1,42 @@
+voting app
+what is project?
+    a functionality where users can give vote to given candidate
+
+    Models?
+    Routes?
+
+    functionalities?
+    1> user sign-in and sign-up
+    2> list of candidates to vote for
+    3> vote only one candidate
+    4> there is a route which shows list of candidates and thier
+        live vote count sorted by their vote count
+    5> sign-up with unique id --> Aadhar number
+    6> User and candidate are different -- admin maintains list of candidates
+    7> user can change their passwords
+
+    -----------------------------------------------
+
+    Routes means end points
+      1> user authentication
+        --> /signup : POST -- create a new user account
+        --> /login : POST -- login to am existing account
+      2> voting
+        --> /candidate : GET -- Get the list of candidates
+        --> /vote/candidateId : POST -- vote for a specific candidate
+
+      3> Vote counts:
+        --> /profile: GET -- get the users profile information
+        --> /profile/password: PUT -- change the users password
+
+      4> Admin Candidate Managemnet:
+        --> /candidates : POST -- Create new  candidate
+        --> /candidates/:candidated : PUT -- Update an existing candidate
+        --> /candidates/:candidated : DELETE -- Delete a candidate from the last
+
+
+
+
+create user --> user --> routes -> access the profile
+                                -> change password
+                                -> vote 

@@ -1,0 +1,16 @@
+{
+  "name": "voting_app",
+  "version": "1.0.0",
+  "description": "enables user to vote and check results",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Mohammad Rasheed",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}

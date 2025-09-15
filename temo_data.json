@@ -1,0 +1,17 @@
+{
+    "name":"Rahul gandhi",
+    "party":"Congress",
+    "age":40,
+    "votes":[ 
+
+        {
+            "user":"64a7f4e2c8f1b2a5d6e7f8g9",
+            "votedAt":"2024-07-01T10:00:00Z"
+        },
+        {
+            "user":"64a7f4e2c8f1b2a5d6e7f8h0",
+            "votedAt":"2024-07-01T11:00:00Z"
+        }
+    ]
+    "voteCount":2,
+}
